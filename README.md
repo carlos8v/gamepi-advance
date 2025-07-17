@@ -47,7 +47,7 @@ Adicione a configuração de tela no arquivo `/boot/config.txt`:
 
 Instalação do driver:
 
-> [!WARNING] Dados do exemplo
+> [!WARNING]
 > Nesse exemplo `GPIO5` e `GPIO6` serão usados para comunicação com a tela LCD. Mude o número dos _gpio_ se a sua configuração for diferente.
 
 ```bash
@@ -157,7 +157,7 @@ Usando o comando `gpio config` é possível configurar os botões do controle. S
 
 ## Controle de áudio
 
-Para configuração de áudio, devemos criar dois comandos no GPIOnext com `gpionext config`; e adicione os comandos:
+Para configuração de áudio, devemos criar dois comandos no GPIOnext com `gpionext config`:
 
 **Aumentar vôlume:**
 ```bash
@@ -180,7 +180,7 @@ Se a tela tem a opção de controle de brilho (_backlight_) é possível configu
 - Durante desligamento de sistema desligar o brilho
 - Diminuir brilho em caso de inatividade
 
-> [!WARNING]- Dados do exemplo
+> [!WARNING]
 > Nesse exemplo serão usados para ajuste de brilho da tela LCD o `GPIO12`. Mude o número do _gpio_ se a sua configuração for diferente.
 
 1. Instale a biblioteca WiringPi:
@@ -272,6 +272,5 @@ Etapas para finalização do projeto:
 # Referências
 
 - [Game Boy Zero](https://beardedmaker.com/wiki/index.php?title=Game_Boy_Zero)
-- [Raspberry Pi Power Status Led](https://howchoo.com/pi/build-a-simple-raspberry-pi-led-power-status-indicator/)
-- [Raspberry Pi Power Button](https://howchoo.com/pi/how-to-add-a-power-button-to-your-raspberry-pi/)
+- [DIY Raspi Zero Inside a GBA](https://www.reddit.com/r/raspberry_pi/comments/14h64eg/diy_raspi_zero_inside_a_gba)
 - [Raspberry Pi Pinout](https://pinout.xyz/)
