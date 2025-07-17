@@ -5,7 +5,7 @@ Montar um videogame portátil com o formato de um gameboy advance utilizando um 
 ## Componentes
 - Raspberry Pi Zero 2W
 - Gameboy Advance Case
-- Bateria de lítio (3000mAh 3.7v)
+- Bateria de lítio (1000mAh 3.7v)
 - Botão de ligar/desligar (power switch)
 - Módulo de carregamento de bateria (5v)
 - Entrada USB tipo C
