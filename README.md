@@ -22,7 +22,9 @@ Montar um videogame portátil com o formato de um gameboy advance utilizando um 
 
 # Configurações
 
-Configurações adicionais para interação com os periféricos.
+## Sistema operacional
+
+O sistema operacional usado será o [retropie](https://retropie.org.uk/). Siga a instalação normalmente com base no tutorial disponibilizado pelo site.
 
 ## Configuração de tela LCD
 
